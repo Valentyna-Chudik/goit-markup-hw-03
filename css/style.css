@@ -537,10 +537,21 @@ body {
   margin-bottom: 50px;
   padding-top: 93px;
 }
+.button-list .item {
+}
+
+.button-list .item:not(:last-child) {
+  margin-right: 8px;
+}
 
 .filter-button {
+  padding: 6px 22px;
+
   background-color: #f5f4fa;
   color: var(--title-text-color);
+
+  border-radius: 4px;
+  border: none;
 
   font-family: Roboto;
   font-style: normal;
